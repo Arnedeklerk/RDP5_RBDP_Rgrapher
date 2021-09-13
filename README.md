@@ -61,5 +61,7 @@ Martin DP, Murrell B, Golden M, Khoosal A, & Muhire B (2015) RDP4: Detection and
 
 ## Special Thanks
 Thanks to Darren Martin for his continued support in upkeeping RDP5 and general guidance
+
 Thanks to Rentia Lourens for her contribution in the layering of geom_polygons
+
 Thanks to Steyn de Klerk for his contribution in geneMapHeight automation
