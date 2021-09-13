@@ -5,24 +5,24 @@ The program takes RDP5 Recombination Breakpoint Distribution Plot data and conve
 
 # "How to" guide
 ### Initial setup
-1. Clone/Download the code
-2. Open up the project called `ShadingBetweenTheLines.Rproj` in R Studio (or similar IDE)
-3. Double click `MainFile.R` in the built in explorer
-4. Allow R Studio to install required libaries and packages (yellow popup)
+1. Clone/Download the code.
+2. Open up the project called `ShadingBetweenTheLines.Rproj` in R Studio (or similar IDE).
+3. Double click `MainFile.R` in the built in explorer.
+4. Allow R Studio (recommended) to install required libaries and packages (yellow popup).
 
 ### What data to use as input
-* RDP5 Beta version 5.16 and higher is required. Download RDP here: http://web.cbio.uct.ac.za/~darren/rdp.html, or get the hidden, most updated version here: http://web.cbio.uct.ac.za/~darren/mysetup.exe 
-* Within RDP5 >5.16, create a Breakpoint Distribution Plot and export the data by right-clicking the graph and hitting "Save CSV"
+* RDP5 Beta version 5.16 and higher is required. Download (older) RDP here: http://web.cbio.uct.ac.za/~darren/rdp.html, or get the hidden, most updated version here: http://web.cbio.uct.ac.za/~darren/mysetup.exe 
+* Within RDP5 >5.16, create a Breakpoint Distribution Plot and export the data by right-clicking the graph and hitting "Save CSV".
 * RDBP_Grapher uses the following data - move it into the root directory of RDBP_Grapher: Breakpoint Distribution Data, ORFCoords and BreakpointPositions.
 
 ### Data cleaning
 Some data will require minor modification, here we guide you through the steps:
-1. Open your Breakpoint Distribution Data (this will be the one without either csvORFCoords or csvBreakpointPositions appended)
-   1. Add a new column in G, titled `Bottom`
-   2. Use the following formula, applied to all cells with contents to the left: `=MIN(B2:F2)`
-   3. Modify both position one, and the final position of the dataset to have 0 values in all but their "Position in alignment" field (Like so, for both the first and last positions: https://i.imgur.com/CN1JOtl.png)
-   4. Save and exit
- 2. Open your ORFPositions file
+1. Open your Breakpoint Distribution Data (this will be the one without either csvORFCoords or csvBreakpointPositions appended).
+   1. Add a new column in G, titled `Bottom`.
+   2. Use the following formula, applied to all cells with contents to the left: `=MIN(B2:F2)`.
+   3. Modify both position one, and the final position of the dataset to have 0 values in all but their "Position in alignment" field (Like so, for both the first and last positions: https://i.imgur.com/CN1JOtl.png).
+   4. Save and exit.
+ 2. Open your ORFPositions file.
    1. Look carefully at the Gene Symbol column and purge duplicates. Be careful, as you need to take the smallest Start position and the largest Stop position for each unique Gene Symbol. Keep the formatting (leave gapless).
   
 ## Data in R
@@ -78,8 +78,8 @@ This project was created as a part of my Masters Thesis in Bioinformatics with t
 Martin DP, Murrell B, Golden M, Khoosal A, & Muhire B (2015) RDP4: Detection and analysis of recombination patterns in virus genomes. Virus Evolution 1: vev003 doi: 10.1093/ve/vev003
 
 ## Special Thanks
-Thanks to Darren Martin for his continued support in upkeeping RDP5 and general guidance
+Thanks to Darren Martin for his continued support in upkeeping RDP5 and general guidance.
 
-Thanks to Rentia Lourens for her contribution in the layering of geom_polygons
+Thanks to Rentia Lourens for her contribution in the layering of geom_polygons.
 
-Thanks to Steyn de Klerk (@staindk) for his contribution in geneMapHeight automation
+Thanks to Steyn de Klerk (@staindk) for his contribution in geneMapHeight automation.

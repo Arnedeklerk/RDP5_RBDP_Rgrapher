@@ -14,9 +14,9 @@ library(ggfittext)
 # install.packages("ggfittext")
 
 # Importing the data
-breakpointData <-read.csv("Example/Sarbecovirus.csv")
-geneMap <- read.csv("Example/Sarbecovirus.csvORFCoords.csv")
-breakpointDotPos <- read.csv("Example/Sarbecovirus.csvBreakpointPositions.csv")
+breakpointData <-read.csv("example_files/Sarbecovirus.csv")
+geneMap <- read.csv("example_files/Sarbecovirus.csvORFCoords.csv")
+breakpointDotPos <- read.csv("example_files/Sarbecovirus.csvBreakpointPositions.csv")
 
 # Modifiers (Edit here, as well as the above data for input!)
 spikeOrFullLength <- "" # Leave this if you are not using coronavirus data
