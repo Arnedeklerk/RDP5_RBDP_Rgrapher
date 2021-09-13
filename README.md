@@ -53,6 +53,19 @@ A few notable optional modifiers include:
 * Press CTRL + A (to select all)
 * Press ATRL + ENTER (to run selected code)
 
+# Saving the graph
+* To save the graph, click on Export -> Save as PDF
+* If you save as a PNG, the image will likely be jagged
+Settings:
+1. PDF Size: 30 x 8 (but will depend on your own usecase, so mess around with it)
+2. Portrait
+3. Pick a directory
+4. Pick a File Name
+5. Save
+
+## Example
+![Rplot02-1](https://user-images.githubusercontent.com/33641372/133134684-d496a618-418f-435e-a2b8-5f4989a57b09.jpg)
+
 ## Missing features
 * Better randomisation to avoid overlapping gene maps
 
