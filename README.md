@@ -32,12 +32,12 @@ There are just a few more things we need to modify or tweak, depending on the da
   1.2 Double check that you changed breakpointData, geneMap and breakpointDotPos to now read your own data.
 
 ### Data Modifiers
-virusName: Outputted title used both on top of the graph, and underneath on the X axis.
-taxID: TaxID according to NCBI (https://www.ncbi.nlm.nih.gov/taxonomy).
+* virusName: Outputted title used both on top of the graph, and underneath on the X axis.
+* taxID: TaxID according to NCBI (https://www.ncbi.nlm.nih.gov/taxonomy).
 ## More Modifiers
-fontSizeForGeneMap: How big myust the text be in the gene map? Remember, that when exporting the text does not scale linearly compared to the preview image.
-fontSizeMultiplier: How much would you like to times the font size by
-breakPointLineLength: How long should the breakpoint lines be (minimum of 1)
+* fontSizeForGeneMap: How big myust the text be in the gene map? Remember, that when exporting the text does not scale linearly compared to the preview image.
+* fontSizeMultiplier: How much would you like to times the font size by
+* breakPointLineLength: How long should the breakpoint lines be (minimum of 1)
 
 ### Optional Modifiers
 There are many optional modifiers, but they require a bit more digging throuout the code. The perk of R is that you can use a # to comment a line out, meaning it will no longer be used. If you want something gone, simply comment it out and re-run.
