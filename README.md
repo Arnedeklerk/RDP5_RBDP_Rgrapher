@@ -49,6 +49,10 @@ A few notable optional modifiers include:
 * Color changes
 * Theme modding
 
+## Running the Code
+* Press CTRL + A (to select all)
+* Press ATRL + ENTER (to run selected code)
+
 ## Missing features
 * Better randomisation to avoid overlapping gene maps
 
