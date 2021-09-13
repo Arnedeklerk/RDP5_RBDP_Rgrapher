@@ -1,5 +1,5 @@
 # RDP5_RBDP_Rgrapher
-A small R program designed to take in Recombination Breakpoint Distribution Plot data outputted by RDP5 and make attractive figures
+A small R program designed to take in Recombination Breakpoint Distribution Plot data output by RDP5 and make attractive figures
 
 The program takes RDP5 Recombination Breakpoint Distribution Plot data and converts it into more legible graphs, fit for use in journal article figures, using the 99% (or 95%) confidence intervals
 
@@ -32,7 +32,7 @@ There are just a few more things we need to modify or tweak, depending on the da
   1.2 Double check that you changed breakpointData, geneMap and breakpointDotPos to now read your own data.
 
 ### Data Modifiers
-* virusName: Outputted title used both on top of the graph, and underneath on the X axis.
+* virusName: Output title used both on top of the graph, and underneath on the X axis.
 * taxID: TaxID according to NCBI (https://www.ncbi.nlm.nih.gov/taxonomy).
 ## More Modifiers
 * fontSizeForGeneMap: How big myust the text be in the gene map? Remember, that when exporting the text does not scale linearly compared to the preview image.
