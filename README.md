@@ -1,5 +1,5 @@
 # RDP5_RBDP_Rgrapher
-A small R program designed to take in Recombination Breakpoint Distribution Plot data outputted by RDP5
+A small R program designed to take in Recombination Breakpoint Distribution Plot data outputted by RDP5 and make attractive figures
 
 The program takes RDP5 Recombination Breakpoint Distribution Plot data and converts it into more legible graphs, fit for use in journal article figures, using the 99% (or 95%) confidence intervals
 
