@@ -17,19 +17,19 @@ The program takes RDP5 Recombination Breakpoint Distribution Plot data and conve
 ### Data cleaning
 Some data will require minor modification, here we guide you through the steps:
 1. Open your Breakpoint Distribution Data (this will be the one without either csvORFCoords or csvBreakpointPositions appended)
-  1.1 Add a new column in G, titled Bottom
-  1.2 Use the following formula, applied to all cells with contents to the left: =MIN(B2:F2)
-  1.3 Modify both position one, and the final position of the dataset to have 0 values in all but their "Position in alignment" field (Like so, for both the first and last positions: https://i.imgur.com/CN1JOtl.png)
-  1.4 Save and exit
+   1. Add a new column in G, titled Bottom
+   2. Use the following formula, applied to all cells with contents to the left: =MIN(B2:F2)
+   3. Modify both position one, and the final position of the dataset to have 0 values in all but their "Position in alignment" field (Like so, for both the first and last positions: https://i.imgur.com/CN1JOtl.png)
+   4. Save and exit
  2. Open your ORFPositions file
-  2.1 Look carefully at the Gene Symbol column and purge duplicates. Be careful, as you need to take the smallest Start position and the largest Stop position for each unique Gene Symbol. Keep the formatting (leave gapless)
+   1. Look carefully at the Gene Symbol column and purge duplicates. Be careful, as you need to take the smallest Start position and the largest Stop position for each unique Gene Symbol. Keep the formatting (leave gapless)
   
 ## Data in R
 ### Data import
 There are just a few more things we need to modify or tweak, depending on the dataset. 
 1. In the MainFile.R, look under the "#Importing the data" comment
-  1.1 Modify the name of each of the 3 CSV files, according to your own data. In the example it is using Sarbecovirus or Nobecovirus. (Change the green text)
-  1.2 Double check that you changed breakpointData, geneMap and breakpointDotPos to now read your own data.
+   1. Modify the name of each of the 3 CSV files, according to your own data. In the example it is using Sarbecovirus or Nobecovirus. (Change the green text)
+   2. Double check that you changed breakpointData, geneMap and breakpointDotPos to now read your own data.
 
 ### Data Modifiers
 * virusName: Output title used both on top of the graph, and underneath on the X axis.
