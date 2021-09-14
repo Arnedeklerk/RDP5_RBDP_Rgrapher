@@ -28,7 +28,7 @@ Some data will require minor modification, here we guide you through the steps:
 ### Data import
 There are just a few more things we need to modify or tweak, depending on the dataset. 
 1. In the `MainFile.R`, look under the `#Importing the data` comment
-   1. Modify the name of each of the 3 CSV files, according to your own data. In the example it is using Sarbecovirus or Nobecovirus. (Change the green text)
+   1. Modify the name of each of the 3 CSV files, according to your own data. In the example it is using Sarbecovirus or Nobecovirus (Change the green text).
    2. Double check that you changed breakpointData, geneMap and breakpointDotPos to now read your own data.
 
 ### Data Modifiers
