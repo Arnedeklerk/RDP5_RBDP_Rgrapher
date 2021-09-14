@@ -6,9 +6,8 @@ The program takes RDP5 Recombination Breakpoint Distribution Plot data and conve
 # "How to" guide
 ### Initial setup
 1. Clone/Download the code.
-2. Open up the project called `ShadingBetweenTheLines.Rproj` in R Studio (or similar IDE).
-3. Double click `MainFile.R` in the built in explorer.
-4. Allow R Studio (recommended) to install required libaries and packages (yellow popup).
+2. Open up `MainFile.R` in R studio (or similar IDE).
+3. Allow R Studio (recommended) to install required libaries and packages (yellow popup).
 
 ### What data to use as input
 * RDP5 Beta version 5.16 and higher is required. Download (older) RDP here: http://web.cbio.uct.ac.za/~darren/rdp.html, or get the hidden, most updated version here: http://web.cbio.uct.ac.za/~darren/mysetup.exe 
