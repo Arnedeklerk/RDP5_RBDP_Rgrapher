@@ -73,6 +73,9 @@ Settings:
 # Supplementary data and information
 This project was created as a part of my Masters Thesis in Bioinformatics with the University of Cape Town, specifically to improve the quality of my figures.
 
+# Cite this work
+Arné de Klerk, Phillip Swanepoel, Rentia Lourens, Mpumelelo Zondo, Isaac Abodunran, Spyros Lytras, Oscar A MacLean, David Robertson, Sergei L Kosakovsky Pond, Jordan D Zehr, Venkatesh Kumar, Michael J Stanhope, Gordon Harkins, Ben Murrell, Darren P Martin, Conserved recombination patterns across coronavirus subgenera, Virus Evolution, Volume 8, Issue 2, 2022, veac054, https://doi.org/10.1093/ve/veac054
+
 # References (Check out RDP5)
 Martin DP, Murrell B, Golden M, Khoosal A, & Muhire B (2015) RDP4: Detection and analysis of recombination patterns in virus genomes. Virus Evolution 1: vev003 doi: 10.1093/ve/vev003
 
